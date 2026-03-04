@@ -15,9 +15,7 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-        if ($method == 'GET'):
-    ?>
+    <?php if ($method == 'GET'): ?>
     <form action="index.php" method="POST">
         <div>
             <input type="text" name="nome" placeholder="Digite seu nome">
@@ -26,13 +24,8 @@
             <input type="submit" value="Enviar">
         </div>
     </form>
-    <?php
-        else:
-            
-    ?>
+    <?php else: ?>
     <h1>O seu nome é <?= $nome ?></h1>
-    <?php
-        endif;
-    ?>
+    <?php endif; ?>
 </body>
 </html>
