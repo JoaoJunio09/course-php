@@ -11,7 +11,6 @@
 			}
 		}
 	}
-
 ?>
 	<main id="post-container">
 		<div class="content-container">
